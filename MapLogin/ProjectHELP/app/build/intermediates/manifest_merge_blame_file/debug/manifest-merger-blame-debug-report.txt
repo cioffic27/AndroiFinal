@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project_help"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\toefur27\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.project_help.CreateAccountActivity" />
+20-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:12:9-68
+20-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:12:19-56
+21        <activity android:name="com.example.project_help.LoginActivity" >
+21-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:13:9-19:20
+21-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:13:19-48
+22            <intent-filter>
+22-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:14:9-18:25
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:15:13-65
+23-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:15:21-62
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:17:13-73
+25-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:17:23-70
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.example.project_help.BookActivity" />
+28-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:20:9-50
+28-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:20:19-47
+29        <activity android:name="com.example.project_help.MapActivity" />
+29-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:21:9-49
+29-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:21:19-46
+30        <activity android:name="com.example.project_help.CurrentBookingsActivity" />
+30-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:22:9-61
+30-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:22:19-58
+31        <activity android:name="com.example.project_help.MainActivity" >
+31-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:23:9-25:20
+31-->C:\Users\toefur27\Desktop\MapLogin\ProjectHELP\app\src\main\AndroidManifest.xml:23:19-47
+32        </activity>
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\toefur27\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\toefur27\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+36            android:authorities="com.example.project_help.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\toefur27\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\toefur27\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\toefur27\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+39    </application>
+40
+41</manifest>

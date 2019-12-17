@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity">
+
+    <TextView
+        android:id="@+id/usernameTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Username"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
+
+    <TextView
+        android:id="@+id/passwordTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Password"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTxt" />
+
+    <TextView
+        android:id="@+id/emailTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Email"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/majorTxt" />
+
+    <TextView
+        android:id="@+id/majorTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Major"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yearTxt" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="23dp"
+        android:text="@android:string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/labelTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="75dp"
+        android:text="Please Enter The Following Information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Name"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelTxt" />
+
+    <TextView
+        android:id="@+id/lastNameTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Last Name"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+    <TextView
+        android:id="@+id/yearTxt"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Year (e.g. Junior, Senior)"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameTxt" />
+
+    <Button
+        android:id="@+id/createBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="108dp"
+        android:text="Create"
+        app:layout_constraintBottom_toTopOf="@+id/cancelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
+</androidx.constraintlayout.widget.ConstraintLayout>
